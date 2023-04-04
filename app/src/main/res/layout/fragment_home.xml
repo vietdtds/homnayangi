@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:scaleType="centerCrop"
-            android:src="@drawable/viethieuva" />
+            android:src="@drawable/thucdonmoingay" />
 
         <LinearLayout
             android:layout_width="0dp"
@@ -48,7 +48,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Eggs and Toast" />
+                android:text="Yêu là phải nói, đói là phải ăn." />
 
             <Button
                 android:id="@+id/btn_thucdonmn"
@@ -75,7 +75,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:scaleType="centerCrop"
-                android:src="@drawable/viethieuva" />
+                android:src="@drawable/monandinhduong" />
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -93,7 +93,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Grilled Chicken Salad" />
+                    android:text="Ép dầu ép mỡ, ai lỡ ép ăn." />
 
                 <Button
                     android:id="@+id/btn_monandd"
@@ -118,7 +118,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/viethieuva" />
+            android:src="@drawable/monanmienbac" />
 
         <LinearLayout
             android:layout_width="0dp"
@@ -136,7 +136,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Grilled Chicken Salad" />
+                android:text="Ăn cơm có canh như tu hành có bạn." />
 
             <Button
                 android:id="@+id/btn_monanmb"
@@ -161,7 +161,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/viethieuva" />
+            android:src="@drawable/monanmientrung" />
 
         <LinearLayout
             android:layout_width="0dp"
@@ -179,7 +179,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Grilled Chicken Salad" />
+                android:text="Bầu tháng chín, bí tháng mười." />
 
             <Button
                 android:id="@+id/btn_monanmt"
@@ -203,7 +203,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/viethieuva" />
+            android:src="@drawable/monanmiennam" />
 
         <LinearLayout
 
@@ -222,7 +222,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Grilled Chicken Salad" />
+                android:text="Muốn ăn ngon thì phải về nhà." />
 
             <Button
                 android:id="@+id/btn_monanmn"
