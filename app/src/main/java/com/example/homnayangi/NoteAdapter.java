@@ -51,7 +51,7 @@ public class NoteAdapter extends BaseAdapter {
         imgDelete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                context.DialogXoaGC(note.getContent(), note.getId());
+                context.DeleteNote(note.getContent(), note.getId());
             }
         });
 

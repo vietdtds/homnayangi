@@ -35,16 +35,15 @@ public class NoteActivity extends AppCompatActivity {
         btn_addNote.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                DialogThem();
+                DialogAddNote();
             }
         });
         db = new NoteDatabase(this, "note.sqlite", null, 1);
         db.QueryData("CREATE TABLE IF NOT EXISTS notes(Id INTEGER PRIMARY KEY AUTOINCREMENT,Content VARCHAR(255))");
-//        database_update.QueryData("INSERT INTO CongViec VALUES(null,'Món đậu kho cà chua mẹ thích')");
-        GetDataCongViec();
+        getData();
     }
 
-    private void GetDataCongViec() {
+    private void getData() {
         //Xóa mảng cập nhật dữ liệu mới
         Cursor cs = db.GetData("SELECT * FROM notes");
         //here
@@ -59,35 +58,29 @@ public class NoteActivity extends AppCompatActivity {
 
 
 
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        if (item.getItemId() == R.id.menuAdd) {
-//            DialogThem();
-//        }
-//        return super.onOptionsItemSelected(item);
-//    }
+    private void DialogAddNote() {
+        Dialog dialog = new Dialog(this);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE); // bo tieu de hop thoai mac dinh
+        dialog.setContentView(R.layout.dialog_note_add); // set noi dung hop thoai
+        EditText editThem = dialog.findViewById(R.id.editText);
 
-    private void DialogThem() {
-        final Dialog dialog = new Dialog(this);
-        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        dialog.setContentView(R.layout.dialog_addupdate);
-        final EditText editThem = dialog.findViewById(R.id.editText);
         Button btnThem = dialog.findViewById(R.id.btnThem);
         Button btnHuy = dialog.findViewById(R.id.btnHuy);
 
         btnThem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String tennd = editThem.getText().toString();
-                if (tennd.equals("")) {
-                    Toast.makeText(NoteActivity.this, "Vui lòng nhập tên công việc", Toast.LENGTH_SHORT).show();
+                String content = editThem.getText().toString();
+                if (content.equals("")) {
+                    Toast.makeText(NoteActivity.this, "Vui lòng nhập nội dung ghi chú!", Toast.LENGTH_SHORT).show();
                 } else {
-                    db.QueryData("INSERT INTO notes VALUES(null,'" + tennd + "')");
+                    db.QueryData("INSERT INTO notes VALUES(null,'" + content + "')");
                     dialog.dismiss();
-                    GetDataCongViec();
+                    getData();
                 }
             }
         });
+
         dialog.show();
         btnHuy.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -97,25 +90,25 @@ public class NoteActivity extends AppCompatActivity {
         });
     }
 
-    public void DialogXoaGC(String tengc, final int id) {
-        final Dialog dialog = new Dialog(this);
+    public void DeleteNote(String tengc, final int id) {
+        Dialog dialog = new Dialog(this);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        final AlertDialog.Builder dialogXoa = new AlertDialog.Builder(this);
-        dialogXoa.setMessage("Bạn có muốn xóa ghi chú" + tengc + "thật sự?");
-        dialogXoa.setPositiveButton("Có", new DialogInterface.OnClickListener() {
+        AlertDialog.Builder delete = new AlertDialog.Builder(this);
+        delete.setMessage("Bạn có muốn xóa ghi chú \" " + tengc + " \" thật sự?");
+        delete.setPositiveButton("Có", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 db.QueryData("DELETE FROM notes WHERE Id='" + id + "'");
                 dialog.dismiss();
-                GetDataCongViec();
+                getData();
             }
         });
-        dialogXoa.setNegativeButton("Không", new DialogInterface.OnClickListener() {
+        delete.setNegativeButton("Không", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
             }
         });
-        dialogXoa.show();
+        delete.show();
     }
 
 //    public void DialogSua(final int Id, String tenGC) {
