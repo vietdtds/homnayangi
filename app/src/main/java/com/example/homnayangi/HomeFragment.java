@@ -61,14 +61,14 @@ public class HomeFragment extends Fragment {
         btn_monanmn = view.findViewById(R.id.btn_monanmn);
 
         menus = new ArrayList<>();
-        menus.add(new Menu("Thuc don hom nay", new ArrayList<Meal>() {{
-            add(new Meal("1", "", ""));
-            add(new Meal("2", "", ""));
-            add(new Meal("3", "", ""));
-        }}));
-        menus.add(new Menu("Mon an dinh duong", new ArrayList<Meal>() {{
-            add(new Meal("", "", ""));
-        }}));
+//        menus.add(new Menu("Thuc don hom nay", new ArrayList<Meal>() {{
+//            add(new Meal("1", "", ""));
+//            add(new Meal("2", "", ""));
+//            add(new Meal("3", "", ""));
+//        }}));
+//        menus.add(new Menu("Mon an dinh duong", new ArrayList<Meal>() {{
+//            add(new Meal("", "", ""));
+//        }}));
 
         btn_thucdonmn.setOnClickListener(v -> {
             Intent intent = new Intent(getActivity(), PageActivity.class);
