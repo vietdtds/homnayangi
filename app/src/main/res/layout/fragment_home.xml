@@ -42,13 +42,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Thực đơn mỗi ngày"
-                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Yêu là phải nói, đói là phải ăn." />
+                android:text="Yêu là phải nói, đói là phải ăn."
+
+                />
 
             <Button
                 android:id="@+id/btn_thucdonmn"
@@ -87,7 +90,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Món ăn dinh dưỡng"
-                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -130,7 +134,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Món ăn miền Bắc"
-                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -173,7 +178,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Món ăn miền Trung"
-                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -216,7 +222,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Món ăn miền Nam"
-                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <TextView
