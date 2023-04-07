@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PageActivity">
+    tools:context=".view.page.PageActivity">
 
     <ImageView
         android:id="@+id/iv_back"
@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="4dp"
-        android:text="asijfoiew"
+        android:text="Danh sách thực đơn"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -40,6 +40,7 @@
         app:layout_constraintTop_toBottomOf="@id/iv_back">
 
         <TextView
+            android:id="@+id/tv_switch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"

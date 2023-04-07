@@ -3,4 +3,178 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="grid_txt">Hiển thị dạng lưới</string>
+    <string name="linear_txt">Hiển thị dạng danh sách</string>
+    <string name="tv_description">tv_description</string>
+
+
+    <string name="instruction_text">
+        <![CDATA[
+            <p><b>Bước 1:</b> Chuẩn bị nguyên liệu việt dh </p>
+            <ul>
+                <li><i>Thịt bò</i> - 500g</li>
+                <li><i>Đường</i> - 1 muỗng canh</li>
+                <li><i>Tương ớt</i> - 2 muỗng canh</li>
+                <li><i>Tương cà</i> - 2 muỗng canh</li>
+                <li><i>Dầu ăn</i> - 2 muỗng canh</li>
+                <li><i>Tỏi băm</i> - 2 muỗng canh</li>
+                <li><i>Hành tím băm</i> - 2 muỗng canh</li>
+                <li><i>Ớt băm</i> - 1 muỗng cà phê</li>
+                <li><i>Bột năng</i> - 1 muỗng cà phê</li>
+            </ul>
+            <p><b>Bước 2:</b> Thực hiện nấu ăn</p>
+            <ol>
+                <li>Bắc chảo lên bếp, cho dầu ăn vào.</li>
+                <li>Đợi dầu ăn nóng, cho tỏi và hành tím vào xào thơm.</li>
+                <li>Cho thịt bò vào xào đến khi chín.</li>
+                <li>Thêm tương ớt, tương cà và đường vào, khuấy đều.</li>
+                <li>Cho ớt băm và bột năng vào, khuấy đều đến khi nước sốt sánh lại.</li>
+                <li>Tắt bếp và thưởng thức!</li>
+            </ol>
+        ]]>
+    </string>
+
+    <string name="gakhogung_text">
+        <![CDATA[
+            <p><b><font color="#FF0000">Bước 1:</b> <font color="#000000">Sơ chế thịt gà cho sạch và chặt thành từng cục vừa ăn. Gừng cạo sạch vỏ và thái sợi. </p>
+            <p><b><font color="#FF0000">Bước 2:</b> <font color="#000000">Ướp thịt gà trong một cái tô cùng với một ít bột ngọt, hạt nêm, muối, nước mắm, đường, tương ớt, nước màu trong 10 -15 phút.</p>
+            <p><b><font color="#FF0000">Bước 3:</b> <font color="#000000">Bắt nồi lên bếp, phi vàng tỏi rồi cho thịt gà đã ướp vào nấu trong 2 phút cho thêm nước lọc vào vừa ngập thịt gà. Tiếp tục nấu trong khoảng 20 phút ở lửa vừa, nêm nếm lại cho vừa ăn rồi cho gừng và tiêu vào hoàn thành món ăn.</p>
+        ]]>
+    </string>
+    <string name="lonkhosaot_text">
+        <![CDATA[
+            <p><b><font color="#FF0000">Bước 1:</b> <font color="#000000"> Thịt heo sơ chế sạch, cắt thành từng miếng vừa ăn. Sả rửa sạch, hành tím lột vỏ rồi để ráo và đem đi băm nhuyễn.</p>
+            <p><b><font color="#FF0000">Bước 2:</b> <font color="#000000"> Ướp thịt với hạt nêm, đường, bột ngọt, tiêu, tương ớt, hành tím và phần sả băm rồi đảo đều, để thấm gia vị trong 30 phút.</p>
+            <p><b><font color="#FF0000">Bước 3:</b> <font color="#000000"> Bắc chảo lên bếp cho 2 muỗng canh dầu ăn, 2 muỗng canh đường để làm nước màu. Sau đó, cho thịt heo vào đảo đều đến khi săn lại, cho thêm 3 muỗng canh nước mắm và một ít nước kho ở lửa vừa trong 15 phút, nêm nếm lại cho vừa ăn, rồi tắt bếp.</p>
+        ]]>
+    </string>
+    <string name="cakho_text">
+        <![CDATA[
+            <p><b><font color="#FF0000">Bước 1:</b> <font color="#000000"> Làm sạch cá mối và cắt thành khúc vừa ăn. Sau đó, chiên sơ cá mối cho vàng đều.</p>
+            <p><b><font color="#FF0000">Bước 2:</b> <font color="#000000"> Pha hỗn hợp nước đường với ½ chén nước lọc, cho vào 3 muỗng canh đường, ½ muỗng cà phê muối, ½ muỗng cà phê bột ngọt, sau đó khuấy đều cho tan.</p>
+            <p><b><font color="#FF0000">Bước 3:</b> <font color="#000000"> Từ chảo dầu chiên ban đầu bạn cho toàn bộ hỗn hợp nước đường vào khuấy đều cho sệt và khi chuyển sang màu vàng thì cho cá mối vào đảo đều là được.</p>
+        ]]>
+    </string>
+    <string name="tomxaothit_text">
+        <![CDATA[
+            <p><b><font color="#FF0000">Bước 1:</b> <font color="#000000"> Sơ chế cà tím, cắt thành khúc khoảng 3cm. Tôm sú sơ chết sạch, lột vỏ để ráo. Thịt rửa sạch cắt thành từng khúc vừa ăn. Lá lốt và tía tô lặt lá héo xong rồi thì bạn cắt nhỏ, cà chua bi bạn rửa sạch cắt làm đôi còn ớt thì bạn đập dập khoảng 2 trái.</p>
+            <p><b><font color="#FF0000">Bước 2:</b> <font color="#000000"> Chia thịt và tôm là 2 phần và ướp với 1/2 muỗng cà phê bột ngọt, 1/2 muỗng cà phê hạt nêm, 1/4 muỗng cà phê tiêu xay, 1/2 muỗng cà phê bột nghệ và 1 muỗng canh hành tím và tỏi băm, trộn đều các nguyên liệu lại.</p>
+            <p><b><font color="#FF0000">Bước 3:</b> <font color="#000000"> Chần sơ cà tím qua nước sôi. Sau đó bắt chảo phi thơm hành tỏi và cho phần thịt ba chỉ, tôm sú, tiếp đến là cà tím, cà bi rồi nêm nếm lại cho vừa ăn.</p>
+        ]]>
+    </string>
+    <string name="suonham_text">
+        <![CDATA[
+            <p><b><font color="#FF0000">Bước 1:</b> <font color="#000000"> Sơ chế, làm sạch sườn non và củ sen, cắt thành khúc vừa ăn. Ướp sườn với 1/2 phần hành tím, 2 muỗng cà phê hạt nêm, 1 muỗng cà phê tiêu, 2 muỗng cà phê nước mắm. Đảo đều và để ướp 15 phút cho thấm gia vị.</p>
+            <p><b><font color="#FF0000">Bước 2:</b> <font color="#000000"> Làm nóng nồi và phi thơm hành tím. Sau đó, cho sườn và 2 lít nước lọc vào hầm. Nêm 3 muỗng cà phê hạt nêm, 2 muỗng cà phê đường, cho phần củ sen vào, hầm lửa vừa trong 35 phút.</p>
+            <p><b><font color="#FF0000">Bước 3:</b> <font color="#000000"> Nêm nếm lại gia vị và tắt bếp.</p>
+        ]]>
+    </string>
+    <string name="canhraungot_text">
+        <![CDATA[
+            <p><b><font color="#FF0000">Bước 1:</b> <font color="#000000"> Rau ngót mua về tước lấy lá, bỏ những lá sâu, lá héo rồi rửa sạch, để ráo.</p>
+            <p><b><font color="#FF0000">Bước 2:</b> <font color="#000000"> Thịt băm cho ra chén, ướp với 2 củ hành tím băm nhuyễn, 1 muỗng cà phê hạt nêm, 1/2 muỗng cà phê bột ngọt, 1/2 muỗng cà phê muối. Trộn và để khoảng 15 phút cho thịt thấm gia vị.</p>
+            <p><b><font color="#FF0000">Bước 3:</b> <font color="#000000"> Bắc nồi lên bếp, cho vào nồi 1 lít nước và đun sôi. Khi nước sôi, cho hết thịt băm đã ướp vào, khuấy đều. Đợi nước sôi 1 lần nữa thì vớt bỏ bọt, cho rau ngót vào. Nêm 1 muỗng canh hạt nêm, 1/2 muỗng cà phê bột ngọt, 1/2 muỗng cà phê muối. Khuấy đều canh 1 - 2 lần nữa, nước sôi lại thì nêm nếm lại cho vừa ăn rồi tắt bếp và múc canh ra tô, rắc tiêu lên là thưởng thức được ngay.</p>
+        ]]>
+    </string>
+    <string name="canhtom_text">
+        <![CDATA[
+            <p><b><font color="#FF0000">Bước 1:</b> <font color="#000000"> Bạn rửa sạch mực và tôm, sau đó xát với muối và rượu trong 1 - 2 phút để khử mùi tanh rồi rửa lại với nước một lần nữa.</p>
+            <p><b><font color="#FF0000">Bước 2:</b> <font color="#000000"> Bắc nồi lên bếp rồi cho 2 muỗng dầu ăn và tỏi băm vào. Phi tỏi thơm và vàng rồi thì bạn cho thơm, cà chua và ớt vào xào cùng nhau.</p>
+            <p><b><font color="#FF0000">Bước 3:</b> <font color="#000000"> Sau khi xào thơm và cà chua được 30 giây thì cho 1.5 lít nước vào. Khi nước sôi bạn cho 1 muỗng nước mắm, 1 muỗng cà phê muối, 2 muỗng cà phê hạt nêm và 1 muỗng đường vào rồi nêm nếm lại cho hợp khẩu vị. Tiếp đến cho tất cả những nguyên liệu còn lại vào: Tôm, mực, giá (đỗ). Bạn đợi nước sôi thì rắc ngò vào rồi tắt bếp. Múc canh ra tô, rắc một ít hành lá lên và thưởng thức.</p>
+        ]]>
+    </string>
+    <string name="suonkho_text">
+        <![CDATA[
+            <p><b><font color="#FF0000">Bước 1:</b> <font color="#000000"> Sườn heo mua về để khử mùi hôi bạn rửa qua 1 lần nước, sau đó xoa bóp sườn với muối khoảng 2 - 3 phút, rửa lại lần nữa rồi chặt khúc vừa ăn, để ráo. Trộn đều sườn với 1 muỗng cà phê hạt nêm, 1 muỗng cà phê bột ngọt, 1/2 muỗng cà phê tiêu, 1 muỗng canh dầu hào, 1 muỗng canh nước mắm. Ướp khoảng 20 phút để sườn thấm gia vị. Thơm gọt vỏ, bỏ mắt, rửa sạch rồi cắt thành miếng vừa ăn.</p>
+            <p><b><font color="#FF0000">Bước 2:</b> <font color="#000000"> Bắc chảo lên bếp, đun nóng 100ml dầu ăn rồi cho hành tím vào phi thơm, tiếp đến xếp sườn heo vào chiên khoảng 5 phút đến khi sườn rám vàng cả hai mặt.</p>
+            <p><b><font color="#FF0000">Bước 3:</b> <font color="#000000"> Cho vào chén 1.5 muỗng canh đường và 5 muỗng canh nước ấm, khuấy đều cho tan đường rồi đổ vào chảo sườn đang chiên. Đảo đều sườn, hạ lửa nhỏ kho đến khi nước rút cạn còn khoảng 1/2 so với lượng nước ban đầu, lúc này cho thơm vào, đảo đều rồi đậy nắp chảo, kho thêm 5 phút nữa, nêm nếm lại cho vừa với khẩu vị. Tiếp tục kho thêm khoảng 5 phút nữa, cuối cùng rắc thêm ít tiêu xay, tắt bếp.</p>
+        ]]>
+    </string>
+    <string name="phohanoi_text">
+        <![CDATA[
+            <p><b><font color="#FF0000">Bước 1:</b> <font color="#000000"> Xương bò mua về rửa thật sạch. Ngâm xương bò trong nước khoảng 30 phút, pha thêm một ít muối hột hòa với chanh để đỡ mùi hôi của bò. Tiếp theo, chần xương qua nước sôi sau đó rửa thật sạch lại một lần nữa. Hành tây sau khi rửa sạch, để ráo nước. Và đem hành tây nướng trên lửa nhỏ, khi có mùi thơm là được. Tiếp theo, phi lê bò rửa thật sạch. Cắt phi lê bò thành lát mỏng, vừa ăn để sắp lên trên phở. Hành là cắt nhuyễn.</p>
+            <p><b><font color="#FF0000">Bước 2:</b> <font color="#000000"> Sau đó cho xương vào nồi, thêm 1 lít nước, 1 muỗng canh muối, và hành tây đã nướng và bắt đầu hầm, nếu có nồi áp suất thì dùng nồi áp suất sẽ hầm nhanh hơn. Sau khi hầm xương khoảng 30 phút, cho vào thêm 1.5 lít nước. Tiếp tục cho bò viên và cuối cùng cho đinh hương, thảo quả, quế chi và hoa hồi vào nồi. Chúng ta nấu lửa vừa và lưu ý không đậy nắp, thường xuyên vớt bọt để nước dùng trong và thơm ngon hơn. Sau 30 phút hầm, chúng ta vớt hết xương bò và những gia vị thơm ra. Tiếp theo sẽ nêm phần nước dùng này, cho vào một muỗng canh muối hột, một muỗng canh đường phèn, một muỗng canh bột ngọt và khuấy đều để gia vị được hòa tan.</p>
+            <p><b><font color="#FF0000">Bước 3:</b> <font color="#000000"> Cho một ít bánh phở vào tô. Xếp những lát bò phi lê lên trên mặt và rắt thêm hành. Chế nước dùng vào, đã sẵn sàng cho bạn thưởng thức rồi nhé.</p>
+        ]]>
+    </string>
+    <string name="bapcai_text">
+        <![CDATA[
+            <p><b><font color="#FF0000">Bước 1:</b> <font color="#000000"> Rau bắp cải sau khi mua về, rửa sạch rồi bổ thành 4 khúc.</p>
+            <p><b><font color="#FF0000">Bước 2:</b> <font color="#000000"> Rửa sạch gừng rồi dập dập, cho vào nồi nước, đun khoảng 5 phút khi thấy nước sôi thì cho rau bắp cải vào luộc chín.</p>
+            <p><b><font color="#FF0000">Bước 3:</b> <font color="#000000"> Khi rau chín, vớt  rau ra đĩa và thưởng thức.</p>
+        ]]>
+    </string>
+    <string name="suonxao_text">
+        <![CDATA[
+            <p><b><font color="#FF0000">Bước 1:</b> <font color="#000000"> Sườn sau khi mua về rửa sạch rồi luộc qua nước sôi để hết hôi.</p>
+            <p><b><font color="#FF0000">Bước 2:</b> <font color="#000000"> Cho sườn vào chảo dầu rán đến khi vàng thì cho bát nước pha gồm: 2 thìa đường, 1/2 thìa mì chính, 2 thìa nước mắm, 2 thìa giấm, nửa bát con nước sôi và tỏi ớt băm nhuyễn.</p>
+            <p><b><font color="#FF0000">Bước 3:</b> <font color="#000000"> Đun đến khi thấy nước gần cạn thì tắt bếp. Đây là món ăn vô cùng thích hợp cho những ngày thời tiết se se lạnh đấy các bạn ạ.</p>
+        ]]>
+    </string>
+    <string name="thitkho_text">
+        <![CDATA[
+            <p><b><font color="#FF0000">Bước 1:</b> <font color="#000000"> Thịt ba chỉ sau khi mua về rửa sạch rồi thái thành các miếng dày, luộc qua.</p>
+            <p><b><font color="#FF0000">Bước 2:</b> <font color="#000000"> Trứng chim cút luộc chín rồi đem rán qua. Cho trứng và thịt ướt với gói kho rồi cho ớt và nước vào.</p>
+            <p><b><font color="#FF0000">Bước 3:</b> <font color="#000000"> Đun đến khi bếp gần cạn thì tắt bếp và thưởng thức</p>
+        ]]>
+    </string>
+    <string name="nemnuong_text">
+        <![CDATA[
+            <p><b><font color="#FF0000">Bước 1:</b> <font color="#000000"> Mỡ lợn bạn mua về các bạn đem rửa sạch mỡ lợn trước, rồi sau đó ngâm với nước muối loãng để khử mùi hôi tầm 10 - 15’, sau đó rửa lại với nước sạch và để ráo, rồi dùng dao cắt thành từng miếng ô vuông kích thước khoảng 1 cm. Tiếp đến, cho mỡ vào nhúng với nước sôi khoảng 2 phút  trên nồi nước đun sôi đặt trên bếp từ hoặc bếp gas, rồi vớt ra bát tô đem đi ướp với đường trong 30 phút để mỡ heo săn lại. Hành tím, tỏi bạn bóc vỏ rửa sạch rồi băm nhuyễn. Rau sống ăn kèm: Xà lách, tía tô bạn nhặt những là ăn được rồi rửa thật sạch, sau đó ngâm với nước muối pha loãng tầm 15’ để đảm bảo an toàn thực phẩm. Rồi bạn vớt ra rá để ráo. Dưa chuột bạn rửa sạch, ngâm với nước muối pha loãng tầm 15’. Sau đó, vớt ra rá để ráo, dùng dao thái mỏng theo chiều dọc rồi để vào đĩa. Củ cải trắng, cà rốt rửa sạch gọt lớp vỏ bên ngoài đi, sau đó các bạn nạo thành thớ mỏng để làm nộm cho dễ ăn nhé.</p>
+            <p><b><font color="#FF0000">Bước 2:</b> <font color="#000000"> Trong bát tô bạn đựng mỡ lợn bạn cho tiếp giò sống vào tô cùng thịt heo xay và 1/2 thìa cà phê muối + 2 thìa cà phê đường + 1 ít bột ngọt + 1/8 thìa cà phê bột nở + 1 thìa tỏi băm và 1 ít tiêu. Sau đó, các bạn trộn đều hỗn hợp lên để cho thấm gia vị. Tiếp đến, bạn dùng màng bọc thực phẩm bọc kín miệng tô rồi cho phần nhân vào ngăn mát tủ lạnh từ 2 - 3 tiếng để nhân nem thấm gia vị và kết dính với nhau. </p>
+            <p><b><font color="#FF0000">Bước 3:</b> <font color="#000000"> Khi nem nướng Nha Trang đã chín bạn cho ra đĩa, dùng dao thái dọc thành từng miếng vừa ăn, rồi các bạn cuốn các loại rau ăn kèm, bún tươi cuốn cùng với bánh tráng và chấm cùng với nước chấm thì ngon tuyệt.</p>
+        ]]>
+    </string>
+    <string name="bunchaca_text">
+        <![CDATA[
+            <p><b><font color="#FF0000">Bước 1:</b> <font color="#000000"> Bóc vỏ củ hành tím, đập dập, băm nhỏ. Rửa đầu cá thu với nước muối pha loãng để khử sạch mùi tanh rồi rửa lại nhiều lần với nước.</p>
+            <p><b><font color="#FF0000">Bước 2:</b> <font color="#000000"> Cho đầu cá thu vào trong âu lớn, thêm 1 muỗng cà phê muối, ½ muỗng cà phê hạt nêm, 1 muỗng cà phê đường, 1 muỗng cà phê hành tím băm nhỏ vào cùng, trộn đều, ướp trong vòng 1 tiếng.</p>
+            <p><b><font color="#FF0000">Bước 3:</b> <font color="#000000"> Cho bún vào bát, thêm chả cá lên trên, chan nước dùng, rắc ít hành lá, ngò rí, tiêu xay vào bát. Bây giờ, bạn chỉ cần vắt thêm miếng chanh và thưởng thức bát Bún chả cá Nha Trang nóng hổi, thơm ngon kèm với rau ăn kèm, nước chấm.</p>
+        ]]>
+    </string>
+    <string name="bunsua_text">
+        <![CDATA[
+            <p><b><font color="#FF0000">Bước 1:</b> <font color="#000000"> Sứa khi mua về đem ngâm trong nước muối pha loãng trong 20-30 phút, sau đó xả nhiều lần với nước lạnh. Chần qua nước sôi và để ra rổ cho ráo nước.</p>
+            <p><b><font color="#FF0000">Bước 2:</b> <font color="#000000"> Ngâm 300 gram cá thu với nước muối pha loãng trong 15 phút, sau đó rửa cá lại với nước sạch từ 2 - 3 lần để cá không còn tanh nữa rồi để cá ráo nước, đem cắt thành khúc vừa ăn. Khi cá đã ráo, ướp cá với 1 muỗng canh tỏi băm, 1 muỗng cà phê ớt băm, 1 muỗng canh đường, 1 muỗng canh nước mắm, 1 muỗng cà phê muối, 1 muỗng cà phê tiêu, trong 10 phút.</p>
+            <p><b><font color="#FF0000">Bước 3:</b> <font color="#000000"> ¼ quả thơm cắt dày khoảng 1 cm. Cà chua rửa sạch, cắt múi cau. Hành tây đem lột vỏ ngoài, rửa sơ qua nước sạch, sau đó cắt đôi.</p>
+            <p><b><font color="#FF0000">Bước 4:</b> <font color="#000000"> Chần qua nước sôi 300gr đầu cá thu. Bắc nồi nước khoảng 1.5 lít nước, khi nước đã sôi thì cho đầu cá thu vào nồi, cho thêm hành tây đôi rồi ninh trong 10 phút. Sau đó cho thơm và cà chua vào rồi nấu thêm khoảng 20 phút. Nêm nước dùng đậm đà với 1 muỗng canh đường, ½ muỗng canh muối, 1 muỗng canh nước mắm, 1 muỗng canh bột nêm hoặc bột ngọt, bột canh (tùy chọn). Sau đó cho cá thu chiên vào nồi nấu thêm 5 phút rồi tắt bếp.</p>
+        ]]>
+    </string>
+    <string name="banhtrangcuonthiheo_text">
+        <![CDATA[
+            <p><b><font color="#FF0000">Bước 1:</b> <font color="#000000"> Rửa sạch thịt heo. Sau đó cho thịt vào nồi, cho thêm một chút muối, luộc với lửa nhỏ để thịt mềm. Khi thịt chín, vớt ra để nguội rồi cắt thành lát vừa ăn. Lát thịt được cắt lát phải đảm bảo phần thịt và phần mỡ xen kẽ nhau.</p>
+            <p><b><font color="#FF0000">Bước 2:</b> <font color="#000000"> Đổ mắm nêm pha sẵn ra chén. Cho thêm tỏi, ớt, 1/4 quả dứa (đều đã được băm nhuyễn) theo tỉ lệ 1:1:1 cùng 2 muỗng cà phê nước cốt chanh và 2 muỗng cà phê đường. Trộn đều hỗn hợp. Việc bổ sung thêm những thành phần này sẽ giúp mắm nêm chuẩn vị Đà Nẵng hơn.</p>
+            <p><b><font color="#FF0000">Bước 3:</b> <font color="#000000"> Rửa sạch phần rau củ quả đã chuẩn bị. Đối với củ và quả, cắt thành hình que dài để dễ cuốn vào bánh tráng. </p>\
+            <p><b><font color="#FF0000">Bước 4:</b> <font color="#000000"> Cho bánh phở, thịt, rau, bánh tráng ra từng đĩa riêng. Mắm nêm cũng múc sẵn ra chén.
+</p>
+        ]]>
+    </string>
+    <string name="laucalinh_text">
+        <![CDATA[
+            <p><b><font color="#FF0000">Bước 1:</b> <font color="#000000"> Cá linh bạn mua về làm sạch, cạo vảy, bỏ đầu, bỏ ruột, cạo thật sạch màng đen trong bụng cá sau đó rửa cá với nước sạch.</p>
+            <p><b><font color="#FF0000">Bước 2:</b> <font color="#000000"> Các loại rau nhúng lẩu gồm: Bông súng bạn tước vỏ, cắt khúc vừa ăn, kèo nèo cắt khúc, bông thiên lý nhặt bỏ cọng già. Rửa sạch các loại rau, ngâm nước muối loãng 10 phút rồi rửa lại bằng nước sạch, để ráo.</p>
+            <p><b><font color="#FF0000">Bước 3:</b> <font color="#000000"> Khi ăn bạn cho vào phần cà chua, thơm còn lại, hành phi, hành lá, rau ôm, ngò gai, chả cá, cá linh nấu khoảng 10 phút cho chín. Cuối cùng nhúng các loại rau là hoàn tất.</p>
+        ]]>
+    </string>
+    <string name="comtam_text">
+        <![CDATA[
+            <p><b><font color="#FF0000">Bước 1:</b> <font color="#000000"> Để nấu cơm tấm ngon, bạn nên ngâm gạo trước khi nấu khoảng 30 phút cho gạo hút nước và nở mềm. Sau đó cho gạo vào nồi cơm điện, đổ nước đun sôi vào xâm xấp mặt gạo, tương tự như khi mình nấu cơm nếp vậy. Khi sôi, nếu thấy quá nhiều nước thì bạn có thể chắt bớt đi. Xới đều cơm và nhấn thêm 1 lần Cook nữa là được. Gần ăn, xới cơm ra bát, lèn chặt 1 chút rồi úp ngược bát xuống đĩa, dùng muôi cơm dàn phần trên bẹt ra.</p>
+            <p><b><font color="#FF0000">Bước 2:</b> <font color="#000000"> Để ăn kèm với cơm tấm, bạn sử dụng phần cốt lết hoặc sườn thăn để làm cho món thịt nướng. Ngoài ra, nếu không mua được sườn, bạn có thể thay bằng phần thịt nạc vai mềm hoặc nạc vai giòn cũng rất thơm ngon. Phần thịt nên để nguyên miếng, to gần bằng 1 bàn tay, độ dày khoảng 2cm. Bóp muối hạt rồi rửa sạch miếng sườn/thịt, để ráo rồi dùng cán dao, dằn nhẹ khắp bề mặt để miếng thịt được mềm. Đặc biệt, bạn khía nhẹ 2-3 đường nơi diềm miếng thịt để khi nướng không bị co rút lại.</p>
+            <p><b><font color="#FF0000">Bước 3:</b> <font color="#000000"> Cơm tấm sau khi cho ra đĩa, bạn cho sườn nướng bên cạnh, tiếp đến là trứng ốp la, nộm củ cải, bì thính, chả trứng và xếp thêm vài lát dưa chuột. Khi ăn rưới nước mắm lên cơm và ăn cùng các món khác.</p>
+        ]]>
+    </string>
+    <string name="hutieu_text">
+        <![CDATA[
+            <p><b><font color="#FF0000">Bước 1:</b> <font color="#000000"> Xương heo rửa sạch. Nấu một nồi nước, khi sôi lên thì cho toàn bộ xương vào trụng sơ, rồi đổ bỏ nước, rửa sạch xương. Tôm chẻ lưng, lột vỏ, chà muối, rửa sạch để ráo nước. Trụng tôm để ráo.</p>
+            <p><b><font color="#FF0000">Bước 2:</b> <font color="#000000"> Lấy một nồi nước to, nấu sôi. Cho xương heo vào và hai củ cải trắng đã bào vỏ rửa sạch, cắt khúc nhỏ. Khi nước sôi thì vặn nhỏ lửa để mềm xương. Trong quá trình nấu thì vớt bỏ bọt cho sạch và trong nước lèo. Khi xương đã mềm thì nêm gia vị vào cho vừa ăn. Tiếp tục vặn lửa nhỏ để nước lèo sắc và ngon.</p>
+            <p><b><font color="#FF0000">Bước 3:</b> <font color="#000000"> Khi ăn trụng hủ tiếu vào nồi nước sôi, hủ tiếu mềm thì sóc cho ráo nước rồi bỏ vào tô. Cho vào tô 1 muỗng canh thịt bằm, 2 quả trứng cút, 4 con tôm, vài lát gan, vài lát xá xíu, cho lên trên 1 nhúm lá hẹ và cần cắt nhỏ. Cho nước lèo nóng vào tô, rắc tiêu, hành phi lên mặt tô cho đẹp và ngon mắt. Ăn kèm với cần, giá, hẹ, rau sống (nếu thích).</p>
+        ]]>
+    </string>
+    <string name="goica_text">
+        <![CDATA[
+            <p><b><font color="#FF0000">Bước 1:</b> <font color="#000000"> Cá trích tươi khi mới mua về nên rửa sạch với nước. Sau đó đánh vảy, cắt bỏ đuôi và hai mang, tiếp tục rửa thêm lần nữa. Tiếp theo, bạn cắt bỏ phần đầu và ruột. Riêng với món gỏi cá sống, thay vì chỉ bỏ ruột như thông thường thì bạn cần loại bỏ toàn bộ phần bụng (chỉ giữ thịt) để khi ăn không có mùi hôi và đảm bảo an toàn khi tiêu hóa. Sau đó cho cá vào một bát nước cốt chanh pha loãng và ngâm trong 5 phút để khử bớt mùi tanh. </p>
+            <p><b><font color="#FF0000">Bước 2:</b> <font color="#000000"> Trong thời gian đó, bạn thực hiện sơ chế các nguyên liệu như: Rang chín đậu phộng và giã nhỏ; Thái nhỏ hành tây, ngâm vào nước để bớt vị hăng; Rửa sạch ớt, loại bỏ hạt và băm nhuyễn; Băm nhỏ tỏi khô; Nhặt sạch rau sống, ngâm nước muối pha loãng trong khoảng 10 phút rồi rửa sạch với nước.</p>
+            <p><b><font color="#FF0000">Bước 3:</b> <font color="#000000"> Sau khi đã ướp cá xong, bạn gắp cá trích bày ra đĩa, rải hành tây lên rồi trộn đều. Cuối cùng rắc một ít đậu phộng rang lên để thêm phần hấp dẫn.</p>
+        ]]>
+    </string>
+
 </resources>
