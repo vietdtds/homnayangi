@@ -58,7 +58,7 @@ public class NoteAdapter extends BaseAdapter {
         imgEdit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                context.EditNote(note.getContent(), note.getId());
             }
         });
 

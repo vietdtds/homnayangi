@@ -111,34 +111,36 @@ public class NoteActivity extends AppCompatActivity {
         delete.show();
     }
 
-//    public void DialogSua(final int Id, String tenGC) {
-//        final Dialog dialog = new Dialog(this);
-//        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-//        dialog.setContentView(R.layout.dong_edit);
-//        final EditText edt = (EditText) dialog.findViewById(R.id.edtSua);
-//        Button btnluu = (Button) dialog.findViewById(R.id.btnSave);
-//        edt.setText(tenGC);
-//        Button btnthoat = (Button) dialog.findViewById(R.id.btnCancel);
-//        btnluu.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                String tennd = edt.getText().toString();
-//                if (tennd.equals("")) {
-//                    Toast.makeText(Update_Activity.this, "Vui lòng nhập tên công việc", Toast.LENGTH_SHORT).show();
-//                } else {
-//                    database_update.QueryData("UPDATE CongViec SET TenGC = '" + tennd + "' WHERE Id = '" + Id + "' ");
-//                    Toast.makeText(Update_Activity.this, "Đã sửa ghi chú", Toast.LENGTH_SHORT).show();
-//                    dialog.dismiss();
-//                    GetDataCongViec();
-//                }
-//            }
-//        });
-//        btnthoat.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                dialog.dismiss();
-//            }
-//        });
-//        dialog.show();
+    public void EditNote(String content , int Id ) {
+        Dialog dialog = new Dialog(this);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dialog.setContentView(R.layout.note_edit);
+        EditText edt = (EditText) dialog.findViewById(R.id.edtEdit);
+        edt.setText(content);
 
+        Button btnluu = (Button) dialog.findViewById(R.id.btnSave);
+        Button btnthoat = (Button) dialog.findViewById(R.id.btnCancel);
+
+        btnluu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String content = edt.getText().toString();
+                if (content.equals("")) {
+                    Toast.makeText(NoteActivity.this, "Vui lòng nhập ghi chú cần lưu !", Toast.LENGTH_SHORT).show();
+                } else {
+                    db.QueryData("UPDATE notes SET Content = '" + content + "' WHERE Id = '" + Id + "' ");
+                    Toast.makeText(NoteActivity.this, "Đã sửa ghi chú", Toast.LENGTH_SHORT).show();
+                    dialog.dismiss();
+                    getData();
+                }
+            }
+        });
+        btnthoat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dialog.dismiss();
+            }
+        });
+        dialog.show();
+    }
 }
