@@ -14,10 +14,49 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:layout_gravity="center"
             android:text="Hôm nay ăn gì?"
             android:textSize="24sp"
             android:textStyle="bold" />
+=======
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/thucdonmoingay" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thực đơn mỗi ngày"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yêu là phải nói, đói là phải ăn."
+
+                />
+
+            <Button
+                android:id="@+id/btn_thucdonmn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chi tiết" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+>>>>>>> 16c2bc1e4fb310ade780d599b4e496d036586d44
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -105,7 +144,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Món ăn dinh dưỡng"
-                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -186,8 +226,15 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="20dp"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:layout_weight="1"
                 app:cardCornerRadius="8dp">
+=======
+                android:text="Món ăn miền Bắc"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+>>>>>>> 16c2bc1e4fb310ade780d599b4e496d036586d44
 
                 <ImageView
                     android:layout_width="match_parent"
@@ -238,8 +285,15 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="20dp"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:layout_weight="1"
                 app:cardCornerRadius="8dp">
+=======
+                android:text="Món ăn miền Trung"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+>>>>>>> 16c2bc1e4fb310ade780d599b4e496d036586d44
 
                 <ImageView
                     android:layout_width="match_parent"
@@ -279,6 +333,56 @@
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
+<<<<<<< HEAD
+=======
+    <LinearLayout
+        android:foreground="@drawable/shape_bg_trans_stroke_black_corner_16"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/monanmiennam" />
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Món ăn miền Nam"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Muốn ăn ngon thì phải về nhà." />
+
+            <Button
+                android:id="@+id/btn_monanmn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chi tiết" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+>>>>>>> 16c2bc1e4fb310ade780d599b4e496d036586d44
 
 
 </androidx.core.widget.NestedScrollView>

@@ -9,7 +9,11 @@
 
     <string name="instruction_text">
         <![CDATA[
+<<<<<<< HEAD
             <p><b>Bước 1:</b> Chuẩn bị nguyên liệu việt dh </p>
+=======
+            <p><b>Bước 1:</b> Chuẩn bị nguyên liệu</p>
+>>>>>>> 16c2bc1e4fb310ade780d599b4e496d036586d44
             <ul>
                 <li><i>Thịt bò</i> - 500g</li>
                 <li><i>Đường</i> - 1 muỗng canh</li>
@@ -32,6 +36,7 @@
             </ol>
         ]]>
     </string>
+<<<<<<< HEAD
 
     <string name="gakhogung_text">
         <![CDATA[
@@ -177,4 +182,6 @@
         ]]>
     </string>
 
+=======
+>>>>>>> 16c2bc1e4fb310ade780d599b4e496d036586d44
 </resources>
