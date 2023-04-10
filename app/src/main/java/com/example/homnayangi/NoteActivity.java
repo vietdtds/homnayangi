@@ -35,7 +35,7 @@ public class NoteActivity extends AppCompatActivity {
         btn_addNote.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                DialogAddNote();
+                AddNote();
             }
         });
         db = new NoteDatabase(this, "note.sqlite", null, 1);
@@ -56,9 +56,9 @@ public class NoteActivity extends AppCompatActivity {
         adapter.notifyDataSetChanged();
     }
 
+//ADD NOTE
 
-
-    private void DialogAddNote() {
+    private void AddNote() {
         Dialog dialog = new Dialog(this);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE); // bo tieu de hop thoai mac dinh
         dialog.setContentView(R.layout.dialog_note_add); // set noi dung hop thoai
@@ -90,31 +90,12 @@ public class NoteActivity extends AppCompatActivity {
         });
     }
 
-    public void DeleteNote(String tengc, final int id) {
-        Dialog dialog = new Dialog(this);
-        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        AlertDialog.Builder delete = new AlertDialog.Builder(this);
-        delete.setMessage("Bạn có muốn xóa ghi chú \" " + tengc + " \" thật sự?");
-        delete.setPositiveButton("Có", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                db.QueryData("DELETE FROM notes WHERE Id='" + id + "'");
-                dialog.dismiss();
-                getData();
-            }
-        });
-        delete.setNegativeButton("Không", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-            }
-        });
-        delete.show();
-    }
+//EDIT NOTE
 
     public void EditNote(String content , int Id ) {
         Dialog dialog = new Dialog(this);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        dialog.setContentView(R.layout.note_edit);
+        dialog.setContentView(R.layout.dialog_note_edit);
         EditText edt = (EditText) dialog.findViewById(R.id.edtEdit);
         edt.setText(content);
 
@@ -143,4 +124,28 @@ public class NoteActivity extends AppCompatActivity {
         });
         dialog.show();
     }
+
+//DELETE NOTE
+
+    public void DeleteNote(String tengc, final int id) {
+        Dialog dialog = new Dialog(this);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        AlertDialog.Builder delete = new AlertDialog.Builder(this);
+        delete.setMessage("Bạn có muốn xóa ghi chú \" " + tengc + " \" thật sự?");
+        delete.setPositiveButton("Có", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                db.QueryData("DELETE FROM notes WHERE Id='" + id + "'");
+                dialog.dismiss();
+                getData();
+            }
+        });
+        delete.setNegativeButton("Không", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+            }
+        });
+        delete.show();
+    }
+
 }
