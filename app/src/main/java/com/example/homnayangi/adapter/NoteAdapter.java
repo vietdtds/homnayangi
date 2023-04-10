@@ -1,4 +1,4 @@
-package com.example.homnayangi;
+package com.example.homnayangi.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,10 +8,14 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.homnayangi.R;
+import com.example.homnayangi.model.Note;
+import com.example.homnayangi.view.main.NoteActivity;
+
 import java.util.List;
 
 public class NoteAdapter extends BaseAdapter {
-    private  NoteActivity context;
+    private NoteActivity context;
     private  int layOut;
     private List<Note> notelist;
 

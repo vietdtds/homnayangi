@@ -1,4 +1,4 @@
-package com.example.homnayangi;
+package com.example.homnayangi.view.main;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -13,6 +13,11 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.homnayangi.adapter.NoteAdapter;
+import com.example.homnayangi.R;
+import com.example.homnayangi.database.NoteDatabase;
+import com.example.homnayangi.model.Note;
 
 import java.util.ArrayList;
 

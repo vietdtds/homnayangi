@@ -27,7 +27,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".NoteActivity"
+        <activity android:name=".view.main.NoteActivity"
             tools:ignore="WrongManifestParent" />
     </application>
 

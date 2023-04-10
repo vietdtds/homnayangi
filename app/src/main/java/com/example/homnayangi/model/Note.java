@@ -1,4 +1,4 @@
-package com.example.homnayangi;
+package com.example.homnayangi.model;
 
 public class Note {
     public int id;

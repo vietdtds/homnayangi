@@ -13,7 +13,6 @@ import android.widget.FrameLayout;
 import com.example.homnayangi.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
-import com.example.homnayangi.NoteActivity;
 
 public class MainActivity extends AppCompatActivity {
 

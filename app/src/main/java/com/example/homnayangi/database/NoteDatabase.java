@@ -1,4 +1,4 @@
-package com.example.homnayangi;
+package com.example.homnayangi.database;
 
 import android.content.Context;
 import android.database.Cursor;
