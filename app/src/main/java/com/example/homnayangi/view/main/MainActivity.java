@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
-                    case R.id.nav_home: {
+                    case R.id.nav_home:{
                         fragment = HomeFragment.newInstance();
                         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
                         fragmentTransaction.replace(frameLayout.getId(), fragment);

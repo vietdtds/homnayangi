@@ -6,7 +6,34 @@
     <string name="linear_txt">Hiển thị dạng danh sách</string>
     <string name="tv_description">tv_description</string>
 
-    <string name="instruction_text"></string>
+
+    <string name="instruction_text">
+        <![CDATA[
+           <p><b>Bước 1:</b> Chuẩn bị nguyên liệu</p>
+            <ul>
+                <li><i>Thịt bò</i> - 500g</li>
+                <li><i>Đường</i> - 1 muỗng canh</li>
+                <li><i>Tương ớt</i> - 2 muỗng canh</li>
+                <li><i>Tương cà</i> - 2 muỗng canh</li>
+                <li><i>Dầu ăn</i> - 2 muỗng canh</li>
+                <li><i>Tỏi băm</i> - 2 muỗng canh</li>
+                <li><i>Hành tím băm</i> - 2 muỗng canh</li>
+                <li><i>Ớt băm</i> - 1 muỗng cà phê</li>
+                <li><i>Bột năng</i> - 1 muỗng cà phê</li>
+            </ul>
+            <p><b>Bước 2:</b> Thực hiện nấu ăn</p>
+            <ol>
+                <li>Bắc chảo lên bếp, cho dầu ăn vào.</li>
+                <li>Đợi dầu ăn nóng, cho tỏi và hành tím vào xào thơm.</li>
+                <li>Cho thịt bò vào xào đến khi chín.</li>
+                <li>Thêm tương ớt, tương cà và đường vào, khuấy đều.</li>
+                <li>Cho ớt băm và bột năng vào, khuấy đều đến khi nước sốt sánh lại.</li>
+                <li>Tắt bếp và thưởng thức!</li>
+            </ol>
+        ]]>
+    </string>
+
+>>>>>>> fc02be44436504852ae8d2394da84b96aea231c0
 
     <string name="gakhogung_text">
         <![CDATA[
