@@ -6,6 +6,7 @@
     <string name="linear_txt">Hiển thị dạng danh sách</string>
     <string name="tv_description">tv_description</string>
 
+    <string name="instruction_text"></string>
 
     <string name="gakhogung_text">
         <![CDATA[
@@ -151,6 +152,5 @@
         ]]>
     </string>
 
-=======
->>>>>>> 16c2bc1e4fb310ade780d599b4e496d036586d44
+
 </resources>
