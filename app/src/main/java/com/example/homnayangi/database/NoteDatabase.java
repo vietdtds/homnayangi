@@ -15,12 +15,12 @@ public class NoteDatabase extends SQLiteOpenHelper {
     }
 
     public void QueryData(String sql){
-        SQLiteDatabase database = getWritableDatabase();
+        SQLiteDatabase database = getWritableDatabase(); // add/update/delete db
         database.execSQL(sql);
     }
 
     public Cursor GetData(String sql){
-        SQLiteDatabase database = getReadableDatabase();
+        SQLiteDatabase database = getReadableDatabase(); //read db
         return database.rawQuery(sql,null);
     }
     @Override

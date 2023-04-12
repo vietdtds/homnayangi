@@ -37,15 +37,14 @@ public class NoteActivity extends AppCompatActivity {
         btn_addNote = (Button) findViewById(R.id.btn_addNote);
         adapter = new NoteAdapter(this, R.layout.note_item, arrNote);
         lvNote.setAdapter(adapter);
-        btn_addNote.setOnClickListener(new View.OnClickListener() {
+        db = new NoteDatabase(this, "note.sqlite", null, 1);
+        db.QueryData("CREATE TABLE IF NOT EXISTS notes(Id INTEGER PRIMARY KEY AUTOINCREMENT,Content VARCHAR(255))");
+        getData();btn_addNote.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 AddNote();
             }
         });
-        db = new NoteDatabase(this, "note.sqlite", null, 1);
-        db.QueryData("CREATE TABLE IF NOT EXISTS notes(Id INTEGER PRIMARY KEY AUTOINCREMENT,Content VARCHAR(255))");
-        getData();
     }
 
     private void getData() {
@@ -65,12 +64,14 @@ public class NoteActivity extends AppCompatActivity {
 
     private void AddNote() {
         Dialog dialog = new Dialog(this);
-        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE); // bo tieu de hop thoai mac dinh
-        dialog.setContentView(R.layout.dialog_note_add); // set noi dung hop thoai
-        EditText editThem = dialog.findViewById(R.id.editText);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dialog.setContentView(R.layout.dialog_note_add);
 
+
+        EditText editThem = dialog.findViewById(R.id.editText);
         Button btnThem = dialog.findViewById(R.id.btnThem);
         Button btnHuy = dialog.findViewById(R.id.btnHuy);
+
 
         btnThem.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -86,21 +87,23 @@ public class NoteActivity extends AppCompatActivity {
             }
         });
 
-        dialog.show();
+
         btnHuy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 dialog.dismiss();
             }
         });
+        dialog.show();
     }
 
 //EDIT NOTE
 
-    public void EditNote(String content , int Id ) {
+    public void EditNote(String content , int id ) {
         Dialog dialog = new Dialog(this);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.setContentView(R.layout.dialog_note_edit);
+
         EditText edt = (EditText) dialog.findViewById(R.id.edtEdit);
         edt.setText(content);
 
@@ -114,7 +117,7 @@ public class NoteActivity extends AppCompatActivity {
                 if (content.equals("")) {
                     Toast.makeText(NoteActivity.this, "Vui lòng nhập ghi chú cần lưu !", Toast.LENGTH_SHORT).show();
                 } else {
-                    db.QueryData("UPDATE notes SET Content = '" + content + "' WHERE Id = '" + Id + "' ");
+                    db.QueryData("UPDATE notes SET Content = '" + content + "' WHERE Id = '" + id + "' ");
                     Toast.makeText(NoteActivity.this, "Đã sửa ghi chú", Toast.LENGTH_SHORT).show();
                     dialog.dismiss();
                     getData();
@@ -132,11 +135,12 @@ public class NoteActivity extends AppCompatActivity {
 
 //DELETE NOTE
 
-    public void DeleteNote(String tengc, final int id) {
+    public void DeleteNote(String content, final int id) {
         Dialog dialog = new Dialog(this);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+
         AlertDialog.Builder delete = new AlertDialog.Builder(this);
-        delete.setMessage("Bạn có muốn xóa ghi chú \" " + tengc + " \" thật sự?");
+        delete.setMessage("Bạn có muốn xóa ghi chú \" " + content + " \" thật sự?");
         delete.setPositiveButton("Có", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
@@ -148,6 +152,7 @@ public class NoteActivity extends AppCompatActivity {
         delete.setNegativeButton("Không", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
+                dialog.dismiss();
             }
         });
         delete.show();

@@ -50,6 +50,7 @@ public class NoteAdapter extends BaseAdapter {
         ImageView imgEdit = (ImageView) view.findViewById(R.id.imgEdit);
 
         Note note = notelist.get(i);
+
         txtTen.setText(note.getContent());
 
         imgDelete.setOnClickListener(new View.OnClickListener() {
